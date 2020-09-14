@@ -1,0 +1,46 @@
+/** @format */
+
+// app global css in SCSS form
+.title-heading {
+  color: #000;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 0.5rem 0;
+  font-weight: 500;
+  border-bottom: 1px solid #ccc;
+  margin: 1rem 0 1.5rem;
+  width: 100%;
+  display: block;
+}
+.items-start .grid {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.my-card {
+  width: 200px;
+  height: 300px;
+  min-height: 250px;
+  max-height: 350px;
+  max-width: 250px;
+}
+
+.profile-card {
+  display: flex;
+  border-radius: 0px;
+}
+
+.main-menu-item {
+  color: white;
+  background: $primary;
+}
+
+div.my-menu-link {
+  background-color: #808080;
+  color: #fff;
+}
+
+.q-router-link--exact-active.my-menu-link {
+  color: white;
+  background: #808080;
+}
